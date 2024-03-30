@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+}
+
+html,
+.body {
+  font-family: 'DM Sans';
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-top: 8px;
+}
+
+select {
+  background: none;
+  /* -webkit-appearance: none; */
+  color: white;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+nav {
+  background-color: #6f6af7;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.upper-section {
+  margin-top: 10vh;
+}
+
+.logo {
+  font-size: 2.5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon {
+  font-size: 2.5em;
+}
+.search {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 50px;
+}
+.head {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.links {
+  display: flex;
+  gap: 50px;
+  font-size: 1.8em;
+  font-weight: 100;
+}
+.hero {
+  display: flex;
+  gap: 5%;
+  height: 50vh;
+  padding: 5% 6%;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+}
+
+.area {
+  background-color: #d5cdf4;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 1.8em;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 2px #ccc;
+}
+.image img {
+  height: 100%;
+  width: 320px;
+  box-shadow: 5px 5px 6px #ccc;
+  border-radius: 15px;
+}
+
+.cards-div {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+.card {
+  color: white;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 1.5em;
+  line-height: 2;
+  text-align: left;
+  width: 18%;
+  box-shadow: 5px 5px 6px #ccc;
+}
+.card1 {
+  background-color: #929dff;
+}
+.card2 {
+  background-color: #734cf2;
+}
+.card3 {
+  background-color: #d288ff;
+}
+.card4 {
+  background-color: #000000;
+}
+
+
+
+.lower-section {
+  padding: 4% 5%;
+}
+
+.content {
+  margin-top: 50px;
+  border-radius: 10px;
+  display: flex;
+  background-color: #483eff;
+  font-size: 20px;
+  padding: 20px;
+  gap: 40px;
+  min-height: 400px;
+}
+.show {
+  padding: 50px;
+  background-color: white;
+  min-height: 100%;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.buttons-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+}
+.button {
+  border-radius: 10px;
+  padding: 30px 60px;
+  border: 2px solid white;
+  color: white;
+}
+.button1 {
+  background-color: #bce0f6;
+  color: #000000;
+  border: none;
+  box-shadow: 2px 2px 10px black;
+}
+table {
+  margin-top: 30px;
+}
+td,
+th {
+  padding: 10px;
+}
+.show button {
+  position: absolute;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 40px;
+  font-size: 15px;
+  bottom: 30px;
+  right: 30px;
+}
+
+.contact img {
+  height: 150px;
+  position: fixed;
+  bottom: 5px;
+  right: 50px;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  
+  justify-content: center;
+  text-align: center;
+
+  position: sticky;
+  margin-top: 25vh;
+
+  float: right;
+  top: 100px;
+  right: 2px;
+}
+
+.c-icon {
+  border: 2px solid black;
+  border-radius: 10px;
+}
